@@ -1,0 +1,38 @@
+.opcao {
+   gap: 32px;
+   border-top: 0.4px solid transparent;
+   padding: 32px;
+
+}
+
+.rip {
+   gap: 32px;
+   width: 72%;
+   border-top: 0.4px solid white;
+   padding: 32px;
+
+}
+
+.quadro {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding-top: 14px;
+    justify-content: center;
+    
+}
+
+
+.quadro li {
+  width: 220px;
+  height: 280px;
+  border-radius: 8px;
+  background-color: blue;
+  border: 1px solid #FF4EDB;
+  list-style: none;
+}
+
+.quadro img {
+   width: 219px;
+   height: 279px;
+}

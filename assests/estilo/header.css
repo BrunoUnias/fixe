@@ -1,0 +1,111 @@
+header {
+    background-color: #00F0FF;
+    border-radius: 5px;
+    border: 1px solid #FF4EDB;
+
+}
+
+.row ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    width: 367px;
+    height: 48px;
+    margin-left: 8px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #FF4EDB;
+
+}
+
+.busca input {
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #121212;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+
+}
+
+.busca img {
+    filter: invert(100%);
+    padding-left: 37px;
+
+}
+
+.busca button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.row .primaria {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.primaria .secundario  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.secundario ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 42px;
+    margin-bottom: 32px;
+
+}
+
+.secundario ul li {
+    padding-left: 18px;
+    align-items: center;
+
+}
+
+.secundario a {
+    color: #121212;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.secundario button a {
+     font-family: "Press Start 2P", cursive;
+     font-size: 12px;
+     align-items: center;
+}
+
+.fixe {
+    max-width: 89px;
+   
+}
+
+.perfil {
+    align-items: center;
+
+}
+
+.perfis {
+    border-radius: 50%;
+    width: 32px;
+    padding-left: 7px;
+}
